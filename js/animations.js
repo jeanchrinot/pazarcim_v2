@@ -76,6 +76,24 @@ let placeholder=document.querySelector('#placeholder');
             cartItems.parentElement.parentElement.parentElement.querySelector('.top-subtotal').innerText=cartItems.innerText+" ürün"
          };
 
+//toggling grid and list display
+  let gridButton=document.querySelector('.button-grid');
+  let listButton=document.querySelector('.button-list');
+  let gridview=document.querySelector('#grid');
+  let listview=document.querySelector('#list');
+
+  gridButton.addEventListener('click',function(){
+    if(gridview.classList.contains('hidden')){
+      gridview.classList.toggle('hidden');
+      listview.classList.toggle('hidden');
+    }
+  });
+  listButton.addEventListener('click',function(){
+    if(listview.classList.contains('hidden')){
+      gridview.classList.toggle('hidden');
+      listview.classList.toggle('hidden');
+    };
+  })
 
 
 //sessionStorage for shopping-cart.html

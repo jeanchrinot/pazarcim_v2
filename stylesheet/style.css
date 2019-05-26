@@ -12942,7 +12942,9 @@ select#shipping-address-select {
   width: 100%;
   z-index: 9;
 }
-
+.hidden{
+	display:none;
+}
 
 /*	Testimonials */
 
