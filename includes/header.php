@@ -158,12 +158,12 @@
                   <!--block-subtitle-->
                   <!--shopping cart sidebar-->
                   <ul class="mini-products-list" id="cart-sidebar" style="max-height:200px;overflow:scroll;">
-                      <li class="placeholder" id="placeholder" ></li>
-              <!--  <li class="item first">
+                      <!--<li class="placeholder" id="placeholder" ></li>-->
+               <li class="item first">
                       <div class="item-inner"><a class="product-image" title="timi &amp; leslie Sophia Diaper Bag, Lemon Yellow/Shadow White" href="#l"><img alt="timi &amp; leslie Sophia Diaper Bag, Lemon Yellow/Shadow White" src="products-images/p4.jpg"></a>
                         <div class="product-details">
                           <div class="access"><a class="btn-remove1" title="Remove This Item" href="#">Çıkar</a> <a class="btn-edit" title="Edit item" href="#"><i class="icon-pencil"></i><span class="hidden">Edit item</span></a> </div>
-                          <!--access--><!--
+                          <!--access-->
                           <strong>1</strong> x <span class="price">$179.99</span>
                           <p class="product-name"><a href="product-detail.html">Fresh Organic Mustard Leaves</a></p>
                         </div>
@@ -173,12 +173,12 @@
                       <div class="item-inner"><a class="product-image" title="JP Lizzy Satchel Designer Diaper Bag - Slate Citron" href="#"><img alt="JP Lizzy Satchel Designer Diaper Bag - Slate Citron" src="products-images/p3.jpg"></a>
                         <div class="product-details">
                           <div class="access"><a class="btn-remove1" title="Remove This Item" href="#">çıkar</a> <a class="btn-edit" title="Edit item" href="#"><i class="icon-pencil"></i><span class="hidden">Edit item</span></a> </div>
-                          <!--access--><!--
+                          <!--access-->
                           <strong>1</strong> x <span class="price">$80.00</span>
                           <p class="product-name"><a href="product-detail.html">Fresh Organic Mustard Leaves</a></p>
                         </div>
                       </div>
-                    </li>-->
+                    </li>
                   </ul>
                   <div class="actions">
                     <button class="btn-checkout" title="Checkout" type="button" onClick="window.location=checkout.html"><span>alışverişi bitir</span></button>
