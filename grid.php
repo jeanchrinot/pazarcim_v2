@@ -2,21 +2,16 @@
 require_once("includes/connect.php");
 require_once("lang/functions_tr.php");
 
+$page = "Fiyat Listesi | Pazarcım";
+$description = "Pazarcım sebze ve meyve fiyat listesine bu sayfadan ulaşabilirsiniz.";
+$keywords = "Pazarcım,sebze,meyve,pazar,alışveriş,fiyat listesi,fiyat";
+
 ?>
 <!DOCTYPE html>
 <html lang="tr">
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Qualis Grid Page</title>
-<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no">
-<meta name="description" content="Default Description">
-<meta name="keywords" content="fashion, store, E-commerce">
-<meta name="robots" content="*">
-<meta name="viewport" content="initial-scale=1.0, width=device-width">
-
-<link rel="icon" href="#" type="image/x-icon">
-<link rel="shortcut icon" href="#" type="image/x-icon">
+<?php require_once("includes/meta.php"); ?>
 
 <!-- CSS Style -->
 <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
