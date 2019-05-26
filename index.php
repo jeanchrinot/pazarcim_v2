@@ -601,5 +601,5 @@ $keywords = "Pazarcım,sebze,meyve,pazar,alışveriş";
     </script>
 </body>
 
-<!-- Mirrored from themesground.com/qmart-demo/V1/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Apr 2019 16:18:22 GMT -->
+<!-- Mirrored from themesground.com/qmart-demo/V1/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Apr 2019 16:18:22 GMT -->
 </html>

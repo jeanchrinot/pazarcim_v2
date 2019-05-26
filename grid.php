@@ -48,7 +48,7 @@ $keywords = "Pazarcım,sebze,meyve,pazar,alışveriş,fiyat listesi,fiyat";
   <div id="header">
     <div class="header-container container">
    <div class="row">
-      <div class="logo"> <a href="index.html" title="index">
+      <div class="logo"> <a href="index.php" title="index">
             <div><img src="images/logo.png" alt="logo"></div>
             </a> </div>
       <div class="fl-nav-menu">
@@ -595,7 +595,7 @@ $keywords = "Pazarcım,sebze,meyve,pazar,alışveriş,fiyat listesi,fiyat";
       <div class="row">
         <div class="col-xs-12">
           <ul>
-            <li class="home"> <a href="index.html" title="Go to Home Page">Home</a> <span>&rsaquo; </span> </li>
+            <li class="home"> <a href="index.php" title="Go to Home Page">Home</a> <span>&rsaquo; </span> </li>
             <li class="category1601"> <strong>Vegetables</strong> </li>
           </ul>
         </div>

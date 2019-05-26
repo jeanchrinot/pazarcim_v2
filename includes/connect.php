@@ -14,7 +14,7 @@ else if(isset($_COOKIE['admin']) AND $_COOKIE['admin']==1){
     $session_admin= 1;
 }
 
-$connect=new PDO("mysql:host=localhost;dbname=pazarcimdb;charset=utf8","root","root!123");
+$connect=new PDO("mysql:host=localhost;dbname=pazarcimdb;charset=utf8","root","");
 $connect->exec("SET NAMES utf8");
 $connect->exec("SET CHARACTER SET utf8");
 $connect->exec("SET COLLATION_CONNECTION='utf8_general_ci'");

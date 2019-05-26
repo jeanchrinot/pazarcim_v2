@@ -53,7 +53,7 @@
     <div id="header">
       <div class="container">
         <div class="header-container row">
-          <div class="logo"> <a href="index.html" title="index">
+          <div class="logo"> <a href="index.php" title="index">
             <div><img src="images/plogo.jpg" alt="logo" style="height:107px;width:100px"></div>
             </a></div>
           <div class="fl-nav-menu">
@@ -65,7 +65,7 @@
                 <!-- BEGIN NAV -->
                 <ul id="nav" class="hidden-xs">
 
-                  <li> <a class="level-top" href="index.html"><span>Anasayfa</span></a></li>
+                  <li> <a class="level-top" href="index.php"><span>Anasayfa</span></a></li>
                   <li class="mega-menu"> <a class="level-top" href="fruits.html"><span>Meyveler</span></a>
                   </li>
                     <!--level0-wrapper dropdown-6col-->
@@ -245,7 +245,7 @@
       <div class="row">
         <div class="col-xs-12">
           <ul>
-            <li class="home"> <a href="index.html" title="Go to Home Page">Anasayfa</a> <span>&rsaquo; </span> </li>
+            <li class="home"> <a href="index.php" title="Go to Home Page">Anasayfa</a> <span>&rsaquo; </span> </li>
             <li class="category1601"> <strong>ürün listesi</strong> </li>
           </ul>
         </div>

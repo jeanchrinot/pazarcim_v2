@@ -44,7 +44,7 @@
                   <li class="level0 parent drop-menu"><a href="#"><span>SAYFALAR</span> </a>
                     <!--sub sub category-->
                     <ul class="level1">
-                      <li class="level1 first"><a href="vegetables.html"><span>Sebzeler</span></a></li>,
+                      <li class="level1 nav-10-1"><a href="vegetables.html"><span>Sebzeler</span></a></li>
                       <li class="level1 nav-10-2"><a href="fruits.html"><span>Meyveler</span></a></li>
                       <li class="level1 nav-10-3"> <a href="list.html"> <span>Ürün ve Fiyat Listesi</span> </a> </li>
                       <li class="level1 nav-10-4"> <a href="product-detail.html"> <span>Ürün Detayi</span> </a> </li>
