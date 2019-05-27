@@ -12897,6 +12897,14 @@ select#shipping-address-select {
   background-color: #e0e0e0;
 }*/
 
+.fa-user-circle-o{
+	color:#80b435;
+	width:80px;
+	height:78.36px;
+	text-align: center;
+	padding-top:30%;
+	font-size:33px;
+}
 
 
 .page-heading {

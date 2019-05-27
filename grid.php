@@ -27,6 +27,7 @@ $keywords = "Pazarcım,sebze,meyve,pazar,alışveriş,fiyat listesi,fiyat";
 <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,600,800,400' rel='stylesheet' type='text/css'>
 <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700,700i,900" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- BEGIN GOOGLE ANALYTICS CODEs -->
 
 </head>
@@ -39,8 +40,8 @@ $keywords = "Pazarcım,sebze,meyve,pazar,alışveriş,fiyat listesi,fiyat";
       <div class="row">
         <div class="col-xs-12">
           <ul>
-            <li class="home"> <a href="index.php" title="Go to Home Page">Home</a> <span>&rsaquo; </span> </li>
-            <li class="category1601"> <strong>Vegetables</strong> </li>
+            <li class="home"> <a href="index.php" title="Go to Home Page">Anasayfa</a> <span>&rsaquo; </span> </li>
+            <li class="category1601"> <strong>Sebzeler</strong> </li>
           </ul>
         </div>
         <!--col-xs-12-->
@@ -50,7 +51,7 @@ $keywords = "Pazarcım,sebze,meyve,pazar,alışveriş,fiyat listesi,fiyat";
     <!--container-->
   </div>
   <div class="page-title">
-    <h2>Vegetables</h2>
+    <h2>Sebzeler</h2>
   </div>
 </div>
 <!--breadcrumbs-->

@@ -31,50 +31,50 @@
                 <!-- BEGIN NAV -->
                 <ul id="nav" class="hidden-xs">
                   <li> <a class="level-top" href="index.php"><span>Anasayfa</span></a></li>
-                  <li class="mega-menu"> <a class="level-top" href="fruits.php"><span>Meyveler</span></a>
+                  <li class="mega-menu"> <a class="level-top" href="grid.php"><span>Meyveler</span></a>
                   </li>
                     <!--level0-wrapper dropdown-6col-->
                     <!--mega menu-->
-                  <li class="mega-menu"> <a class="level-top" href="vegetables.html"><span>Sebzeler</span></a>
+                  <li class="mega-menu"> <a class="level-top" href="grid.php"><span>Sebzeler</span></a>
                     <!--level0-wrapper dropdown-6col-->
                     <!--mega menu-->
                   </li>
                   <li class="mega-menu"> <a class="level-top" href="grid.html"><span>Bize ulaş</span></a> </li>
                   <!--<li class="mega-menu"> <a class="level-top" href="grid.html"><span>Meats</span></a> </li>-->
-                  <li class="level0 parent drop-menu"><a href="#"><span>SAYFALAR</span> </a>
+                <!--  <li class="level0 parent drop-menu"><a href="#"><span>SAYFALAR</span> </a>
                     <!--sub sub category-->
-                    <ul class="level1">
-                      <li class="level1 nav-10-1"><a href="vegetables.html"><span>Sebzeler</span></a></li>
-                      <li class="level1 nav-10-2"><a href="fruits.html"><span>Meyveler</span></a></li>
+                  <!--  <ul class="level1">
+                      <li class="level1 nav-10-1"><a href="grid.php"><span>Sebzeler</span></a></li>
+                      <li class="level1 nav-10-2"><a href="grid.php"><span>Meyveler</span></a></li>
                       <li class="level1 nav-10-3"> <a href="list.html"> <span>Ürün ve Fiyat Listesi</span> </a> </li>
                       <li class="level1 nav-10-4"> <a href="product-detail.html"> <span>Ürün Detayi</span> </a> </li>
                       <li class="level1 nav-10-5"> <a href="shopping-cart.html"> <span>Sepetim</span> </a> </li>
-                      <li class="level1 first parent"><a href="checkout.html"><span>Alişverişi bitir</span></a>
+                      <li class="level1 first parent"><a href="checkout.html"><span>Alişverişi bitir</span></a>-->
                         <!--sub sub category-->
-                        <ul class="level2 right-sub">
+                      <!--  <ul class="level2 right-sub">
                           <li class="level2 nav-2-1-1 first"><a href="checkout-method.html"><span>Method</span></a></li>
                           <li class="level2 nav-2-1-5 last"><a href="checkout-billing-info.html"><span>Billing Info</span></a></li>
-                        </ul>
+                        </ul>-->
                         <!--sub sub category-->
-                      </li>
+                    <!--  </li>
                       <li class="level1 nav-10-4"> <a href="wishlist.html"> <span>favörlerim</span> </a> </li>
                       <li class="level1"> <a href="dashboard.html"> <span>Siparişlerim</span> </a> </li>
                       <li class="level1"> <a href="multiple-addresses.html"> <span>Multiple Addresses</span> </a> </li>
                       <li class="level1"> <a href="about-us.html"> <span>Hakkımızda</span> </a> </li>
-                      <li class="level1 first parent"><a href="blog.html"><span>Blog</span></a>
+                      <li class="level1 first parent"><a href="blog.html"><span>Blog</span></a>-->
                         <!--sub sub category-->
-                        <ul class="level2 right-sub">
+                      <!--  <ul class="level2 right-sub">
                           <li class="level2 nav-2-1-1 first"><a href="blog-detail.html"><span>Blog Detail</span></a></li>
-                        </ul>
+                        </ul>-->
                         <!--sub sub category-->
-                      </li>
+                    <!--  </li>
                       <li class="level1"><a href="contact-us.html"><span>Bize Ulaş</span></a> </li>
                       <li class="level1"><a href="404error.html"><span>404 Error Page</span></a> </li>
                       <li class="level1"><a href="login.html"><span>Giriş</span></a> </li>
                       <li class="level1"><a href="quickview.html"><span>Quick View</span></a> </li>
                       <li class="level1"><a href="newsletter.html"><span>Newsletter</span></a> </li>
                     </ul>
-                  </li>
+                  </li>-->
                   <li class="fl-custom-tabmenulink mega-menu"> <a href="#" class="level-top"> <span>İNDİRİMLER</span> </a>
                     <div class="level0-wrapper fl-custom-tabmenu">
                       <div class="container">
@@ -113,29 +113,8 @@
 
           <div class="fl-header-right">
             <div class="fl-links">
-              <div class="no-js"> <a title="Company" class="clicker"></a>
+              <div class="no-js"> <a title="Company" class="fa fa-user-circle-o" style="font-size:33px;color:#80b435"></a>
                 <div class="fl-nav-links">
-                  <div class="language-currency">
-                    <div class="fl-language">
-                      <ul class="lang">
-                        <li><a href="#"> <img src="images/english.png" alt="English"> <span>English</span> </a></li>
-                        <li><a href="#"> <img src="images/francais.png" alt="Turkish"> <span>Türkçe</span> </a></li>
-                        <!--for the above find image for turkey-->
-                      </ul>
-                    </div>
-                    <!--fl-language-->
-                    <!-- END For version 1,2,3,4,6 -->
-                    <!-- For version 1,2,3,4,6 -->
-                    <div class="fl-currency">
-                      <ul class="currencies_list">
-                        <li><a href="#" title="TR"> TL</a></li>
-                        <!--<li><a href="#" title="EUR"> €</a></li>
-                        <li><a href="#" title="USD"> $</a></li>-->
-                      </ul>
-                    </div>
-                    <!--fl-currency-->
-                    <!-- END For version 1,2,3,4,6 -->
-                  </div>
                   <ul class="links">
                     <li><a href="dashboard.html" title="My Account">HESABİM</a></li>
                     <li><a href="wishlist.html" title="Wishlist">A. LİSTEM</a></li>
