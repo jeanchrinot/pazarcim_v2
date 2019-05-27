@@ -113,13 +113,9 @@
 
           <div class="fl-header-right">
             <div class="fl-links">
-              <div class="no-js"> <a title="Company" class="fa fa-user-circle-o" style="font-size:33px;color:#80b435"></a>
+              <div class="no-js"> <a title="Company" href="login.html" class="fa fa-user-circle-o" style="font-size:33px;color:#80b435"></a>
                 <div class="fl-nav-links">
                   <ul class="links">
-                    <li><a href="dashboard.html" title="My Account">HESABİM</a></li>
-                    <li><a href="wishlist.html" title="Wishlist">A. LİSTEM</a></li>
-                    <li><a href="checkout.html" title="Checkout">KASA</a></li>
-                    <li><a href="blog.html" title="Blog"><span>Blog</span></a></li>
                     <li class="last"><a href="login.html" title="Login"><span>GİRİŞ</span></a></li>
                   </ul>
                 </div>
