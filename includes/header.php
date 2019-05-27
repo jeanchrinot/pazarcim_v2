@@ -181,7 +181,7 @@
                     </li>
                   </ul>
                   <div class="actions">
-                    <button class="btn-checkout" title="Checkout" type="button" onClick="window.location=checkout.html"><span>alışverişi bitir</span></button>
+                    <button class="btn-checkout" title="Checkout" type="button" onClick="window.location=checkout.html"><span><a href="checkout.html">Alışverişi bitir</a></span></button>
                   </div>
                   <!--actions-->
                 </div>

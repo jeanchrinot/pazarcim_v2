@@ -261,18 +261,19 @@
           <ol class="one-page-checkout" id="checkoutSteps">
             <li id="opc-billing" class="section allow active">
               <div class="step-title"> <span class="number">1</span>
-                <h3 class="one_page_heading"> Billing Information</h3>
+                <h3 class="one_page_heading">Adres Bilgiler</h3>
               </div>
               <div id="checkout-step-billing" class="step a-item">
                 <form id="co-billing-form" action="#">
                   <fieldset class="group-select">
                     <ul class="">
                       <li class="wide">
-                        <label for="billing-address-select">Select a billing address from your address book or enter a new address.</label>
+                        <label for="billing-address-select">Adresinizi Seçiniz</label>
                         <br>
                         <div class="input-box">
                           <select name="billing_address_id" id="billing-address-select" class="address-select" title="" onChange="billing.newAddress(!this.value)">
                             <option value="1" selected="selected">john doe, Street road, AL, Alabama 42136, United States</option>
+                            <option value="2" selected="selected">Yahya Kaptan, Otuz mahallesi, Kocaeli İzmit, 42136, Turkiye</option>
                             <option value="">New Address</option>
                           </select>
                         </div>
@@ -701,9 +702,9 @@
                       </li>
                       <li class="">
                         <input type="radio" name="billing[use_for_shipping]" id="billing:use_for_shipping_yes" value="1" title="Ship to this address" onClick="$(&#39;shipping:same_as_billing&#39;).checked = true;" class="radio">
-                        <label for="billing:use_for_shipping_yes">Ship to this address</label>
+                        <label for="billing:use_for_shipping_yes">Bu adrese gönder</label>
                         <input type="radio" name="billing[use_for_shipping]" id="billing:use_for_shipping_no" value="0" checked="checked" title="Ship to different address" onClick="$(&#39;shipping:same_as_billing&#39;).checked = false;" class="radio">
-                        <label for="billing:use_for_shipping_no">Ship to different address</label>
+                        <label for="billing:use_for_shipping_no">Başka bir adrese gönder</label>
                       </li>
                     </ul>
                     <div class="buttons-set" id="billing-buttons-container">
@@ -715,7 +716,7 @@
 
               </div>
             </li>
-            <li id="opc-shipping" class="section">
+            <li id="opc-shipping" class="section" style="{cursor:pointer;}">
               <div class="step-title"> <span class="number">2</span>
                 <h3 class="one_page_heading"> Shipping Information</h3>
               </div>
