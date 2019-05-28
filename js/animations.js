@@ -1,4 +1,4 @@
-
+/*
 //variable declarations
 let buttonArray=document.querySelectorAll('.btn-cart');
 let cartItems=document.querySelector('.cart-items');
@@ -12,10 +12,10 @@ let placeholder=document.querySelector('#placeholder');
 
 //if(window.location.href=="http://pazarcim.com/list.html"||window.location.href=="http://pazarcim.com/vegetables.html" ||window.location.href=="http://pazarcim.com/fruits.html"||window.location.href=='http://pazarcim.com/shopping-cart.html'){
   //the following code will only work for the pages listed above dont forget to change the addresses when you go official
-  cartItems.innerHTML=0;
-
-  if(/*window.location.href=='http://pazarcim.com/shopping-cart.html'&&*/ sessionStorage){
-      for(let i=0;i<sessionStorage.length/3;i++){
+//  cartItems.innerHTML=0;
+/*
+  if(/*window.location.href=='http://pazarcim.com/shopping-cart.html'&&*/ /*sessionStorage){
+  /*    for(let i=0;i<sessionStorage.length/3;i++){
       let tablerow='<tr class=" odd"><td class="image hidden-table"><a href="product-detail.html" title="Women\'s Georgette Animal Print" class="product-image"><img src='+sessionStorage.getItem(i+'b')+' width="75" alt="Women\'s Georgette Animal Print"></a></td><td><h2 class="product-name"><a href="product-detail.html">Fresh Organic Mustard Leaves</a></h2></td><td class="a-center hidden-table"><a href="#" class="edit-bnt" title="Edit item parameters"></a></td><td class="a-right hidden-table"><span class="cart-price"><span class="price">'+sessionStorage.getItem(i+'c')+'</span></span></td><td class="a-center movewishlist"><input name="cart[26340][qty]" value="1" size="4" title="Qty" class="input-text qty" maxlength="12"></td><td class="a-right movewishlist"><span class="cart-price"><span class="price">$129.00</span></span></td><td class="a-center last"><a href="#" title="Remove item" class="button remove-item"><span><span>Remove item</span></span></a></td></tr>';
       let body=document.querySelector('#tablerow');
       body.insertAdjacentHTML('afterend',tablerow);
@@ -75,8 +75,11 @@ let placeholder=document.querySelector('#placeholder');
             cartItems.innerText++;
             cartItems.parentElement.parentElement.parentElement.querySelector('.top-subtotal').innerText=cartItems.innerText+" ürün"
          };
-
+*/
 //toggling grid and list display
+
+if(window.location.href=="http://pazarcim.com/list.html"){
+
   let gridButton=document.querySelector('.button-grid');
   let listButton=document.querySelector('.button-list');
   let gridview=document.querySelector('#grid');
@@ -94,7 +97,7 @@ let placeholder=document.querySelector('#placeholder');
       listview.classList.toggle('hidden');
     };
   })
-
+};
 
 //sessionStorage for shopping-cart.html
 //************************************************************************************************************************
@@ -102,3 +105,6 @@ let placeholder=document.querySelector('#placeholder');
 ***************************************************************************************************************************
 *****************************************************************************************************************************
 */
+
+
+//for login pages

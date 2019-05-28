@@ -14,6 +14,7 @@
 <link rel="shortcut icon" href="#" type="image/x-icon">
 
 <!-- CSS Style -->
+<link rel="stylesheet" href="stylesheet/edits.css">
 <link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="stylesheet/font-awesome.css" media="all">
 <link rel="stylesheet" type="text/css" href="stylesheet/revslider.css" >
@@ -244,7 +245,7 @@
       <div class="row">
         <div class="col-xs-12">
      <div class="page-title">
-     <h2>Giriş yap veya Kaydol</h2>
+     <h2>GİRİŞ</h2>
   </div>
         </div>
         <!--col-xs-12-->
@@ -266,60 +267,107 @@
         <form action="#" method="post" id="login-form">
         <input name="form_key" type="hidden" value="EPYwQxF6xoWcjLUr">
         <fieldset class="col2-set">
-            <div class="col-1 new-users">
-                  <strong>New Customers</strong>
+          <!--by default this should display-->
+            <div class="col-1 new-users tobedisplayed">
+                  <strong>yenİ hesap</strong>
                 <div class="content">
 
-                    <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+                    <p>Hesap oluşturarak alışveriş yapmak ve yeni indirimlerden haberdar olmak daha kolay.</p>
                      <div class="buttons-set">
-                    <button type="button" title="Create an Account" class="button create-account" onClick=""><span><span>Create an Account</span></span></button>
+                    <button type="button" title="Create an Account" class="button create-account" onClick="hide_show()"><span><span>Hesap oluştur</span></span></button>
                 </div>
                 </div>
             </div>
-            <div class="col-2 registered-users">
-             <strong>Registered Customers</strong>
+            <!--by default this should not display-->
+            <div class="col-1 new-users tobehidden hide_it">
+                  <strong>HESABİNİZ VAR MI</strong>
                 <div class="content">
 
-                    <p>If you have an account with us, please log in.</p>
+                    <p>Hesabiniz varsa direk giriş yapın.</p>
+                     <div class="buttons-set">
+                    <button type="button" title="Create an Account" class="button create-account" onClick="hide_show()"><span><span>GİRİŞ YAP</span></span></button>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-2 registered-users">
+                <!--by default this should not display-->
+                <div class="content  tobehidden hide_it">
+                  <strong class="for_registration">Yenİ hesap</strong>
+                    <p>Hesap oluştur.</p>
                     <ul class="form-list">
+                      <li>
+                           <label for="email">isim<em class="required">*</em></label>
+                          <div class="input-box">
+                              <input type="text" name="login[username]" value="" id="name" class="input-text required-entry validate-email" title="name">
+                          </div>
+                      </li>
+                      <li>
+                           <label for="email">soyisim<em class="required">*</em></label>
+                          <div class="input-box">
+                              <input type="text" name="login[username]" value="" id="name" class="input-text required-entry validate-email" title="name">
+                          </div>
+                      </li>
                         <li>
-                             <label for="email">Email Address<em class="required">*</em></label>
+                             <label for="email">Mail adresiniz<em class="required">*</em></label>
                             <div class="input-box">
                                 <input type="text" name="login[username]" value="" id="email" class="input-text required-entry validate-email" title="Email Address">
                             </div>
                         </li>
                         <li>
-                            <label for="pass">Password<em class="required">*</em></label>
+                            <label for="pass">Parola<em class="required">*</em></label>
                             <div class="input-box">
                                 <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="Password">
                             </div>
                         </li>
-                                                                    </ul>
+                        <li>
+                            <label for="pass">Tekrar Parola<em class="required">*</em></label>
+                            <div class="input-box">
+                                <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="Password">
+                            </div>
+                        </li>
+                      </ul>
+                      <div class="buttons-set">
+                             <button type="submit" class="button login" title="Login" name="send" id="send2"><span>Kaydol</span></button>
+                      </div>
+                </div>
+                <!--by default this should display-->
+                <div class="content tobedisplayed">
+                      <strong class="for_login">Kayıtlı müşteriler</strong>
+                    <p>Hesabiniz varsa, giriş yapın.</p>
+                    <ul class="form-list">
+                        <li>
+                             <label for="email">Mail adresiniz<em class="required">*</em></label>
+                            <div class="input-box">
+                                <input type="text" name="login[username]" value="" id="email" class="input-text required-entry validate-email" title="Email Address">
+                            </div>
+                        </li>
+                        <li>
+                            <label for="pass">Parola<em class="required">*</em></label>
+                            <div class="input-box">
+                                <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="Password">
+                            </div>
+                        </li>
+                      </ul>
                     <div class="remember-me-popup">
-    <div class="remember-me-popup-head" style="display:none">
-        <h3 id="text2">What's this?</h3>
-        <a href="#" class="remember-me-popup-close" onClick="showDiv()" title="Close">Close</a>
-    </div>
-    <div class="remember-me-popup-body" style="display:none">
-        <p id="text1">Checking "Remember Me" will let you access your shopping cart on this computer when you are logged out</p>
-        <div class="remember-me-popup-close-button a-right">
-            <a href="#" class="remember-me-popup-close button" title="Close" onClick="
-            showDiv()"><span>Close</span></a>
-        </div>
-    </div>
-</div>
-
-<p class="required">* Required Fields</p>
-
-
-
+                                <div class="remember-me-popup-head">
+                                    <h3 id="text2">Bu ne?</h3>
+                                    <a href="#" class="remember-me-popup-close" onClick="showDiv()" title="Close">Kapat</a>
+                                </div>
+                                <div class="remember-me-popup-body">
+                                    <p id="text1">Checking "Remember Me" will let you access your shopping cart on this computer when you are logged out</p>
+                                    <div class="remember-me-popup-close-button a-right">
+                                        <a href="#" class="remember-me-popup-close button" title="Close" onClick="
+                                        showDiv()"><span>Kapat</span></a>
+                                    </div>
+                                </div>
+                    </div>
+                    <p class="required">* Gerekli bilgi</p>
                      <div class="buttons-set">
-
-                    <button type="submit" class="button login" title="Login" name="send" id="send2"><span>Login</span></button>
-
-                      <a href="#" class="forgot-word">Forgot Your Password?</a>
+                    <button type="submit" class="button login" title="Login" name="send" id="send2"><span>Giriş</span></button>
+                      <a href="#" class="forgot-word">Şifreni mi unuttun?</a>
                  </div> <!--buttons-set-->
-                  </div> <!--content-->
+              </div> <!--content-->
             </div> <!--col-2 registered-users-->
                    </fieldset> <!--col2-set-->
     </form>
@@ -525,6 +573,7 @@
   </ul>
 </div>
 <!-- JavaScript -->
+<script type="text/javascript" src="js/animations.js"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/parallax.js"></script>
@@ -534,8 +583,20 @@
 <script type="text/javascript" src="js/jquery.flexslider.js"></script>
 <script type="text/javascript" src="js/owl.carousel.min.js"></script>
 <script type="text/javascript" src="js/jquery.mobile-menu.min.js"></script>
+<script type="text/javascript">
+let forLogin=document.querySelectorAll('.tobedisplayed');
+let forRegistration=document.querySelectorAll('.tobehidden');
+let login=Array.from(forLogin);
+let register=Array.from(forRegistration);
 
+function hide_show(){
 
+  for(let i=0;i<register.length;i++){
+      login[i].classList.toggle("hide_it");
+        register[i].classList.toggle("hide_it");
+      };
+  };
+</script>
 </body>
 <!-- Mirrored from themesground.com/qmart-demo/V1/login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 23 Apr 2019 16:21:03 GMT -->
 </html>
